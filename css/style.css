@@ -56,11 +56,19 @@ main {
 }
 .box {
     position: relative;
+    
 }
 img {
     width: 100%;
+    display: block;
+}
+.nome {
+    position: absolute;
+    bottom: 1px;
+    background-color: rgb(128, 128, 128, 0.5);
+    font-size: 12px;
+    padding: 2px 2px;
     
-
 }
 /*--------------------
 FINE MAIN
