@@ -18,7 +18,7 @@ FINE COMMON
 /*--------------------
 INIZIO HEADER
 ----------------------*/
-.header {
+header {
     height: 30px;
     background-color: rgb(19, 15, 243);
     display: flex;
@@ -31,10 +31,32 @@ FINE HEADER
 /*--------------------
 INIZIO MAIN
 ----------------------*/
-.container {
+main {
     height: calc(100vh - 110px);
     background-color: red;
-    overflow: scroll;
+    
+    overflow: auto;
+    
+    position: relative;
+
+
+}
+.container {
+    margin-top: 90px;
+    width: 80%;
+    height: 1000px;
+    background-color: olivedrab;
+
+    display: flex;
+    gap: 20px 10px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box {
+
 }
 /*--------------------
 FINE MAIN
@@ -44,7 +66,7 @@ FINE MAIN
 /*--------------------
 INIZIO FOOTER
 ----------------------*/
-.footer {
+footer {
     height: 80px;
     background-color: yellow;
 }
