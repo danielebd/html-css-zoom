@@ -3,3 +3,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*--------------------
+INIZIO COMMON
+----------------------*/
+body {
+    color: rgb(255, 255, 255);
+}
+/*--------------------
+FINE COMMON
+----------------------*/
+
+
+/*--------------------
+INIZIO HEADER
+----------------------*/
+.header {
+    height: 30px;
+    background-color: rgb(19, 15, 243);
+    display: flex;
+    justify-content: flex-end;
+}
+/*--------------------
+FINE HEADER
+----------------------*/
+
+/*--------------------
+INIZIO MAIN
+----------------------*/
+.container {
+    height: calc(100vh - 110px);
+    background-color: red;
+    overflow: scroll;
+}
+/*--------------------
+FINE MAIN
+----------------------*/
+
+
+/*--------------------
+INIZIO FOOTER
+----------------------*/
+.footer {
+    height: 80px;
+    background-color: yellow;
+}
+/*--------------------
+FINE HEADER
+----------------------*/
+
+
