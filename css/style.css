@@ -32,26 +32,21 @@ FINE HEADER
 INIZIO MAIN
 ----------------------*/
 main {
-    height: calc(100vh - 110px);
     background-color: red;
-    
-    overflow: scroll;
-    
-    position: relative;
 
+    overflow: auto;
 
 }
 .container {
-    padding-top: 30vh;
     width: 80%;
     background-color: black;
+    margin: 0 auto;
 
     display: flex;
     gap: 20px 10px;
     flex-wrap:wrap;
+    justify-content: center;
 
-    
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
