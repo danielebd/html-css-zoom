@@ -35,19 +35,21 @@ main {
     height: calc(100vh - 110px);
     background-color: red;
     
-    overflow: auto;
+    overflow: scroll;
     
     position: relative;
 
 
 }
 .container {
-    margin-top: 90px;
+    padding-top: 30vh;
     width: 80%;
-    background-color: olivedrab;
+    background-color: black;
 
     display: flex;
     gap: 20px 10px;
+    flex-wrap:wrap;
+
     
     position: absolute;
     top: 50%;
@@ -56,6 +58,7 @@ main {
 }
 .box {
     position: relative;
+    min-width: 250px;
     
 }
 img {
